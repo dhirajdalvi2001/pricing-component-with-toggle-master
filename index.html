@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+</head>
+<body class="flex-it flex-it-column">
+
+  <div class="head1-container flex-it flex-it-column">
+    <h1>Our Pricing</h1>
+    <div class="choose-one flex-it">
+      <h4>Annually</h4>
+      <label class="switch">
+        <input id="myCheckbox" type="checkbox" checked onclick="toggleSwitch()">
+        <span class="slider round"></span>
+      </label>
+      <h4>Monthly</h4>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <div class="common-container cc1">
+      <h2 class="flex-it">Basic</h2>
+      <div class="pricing flex-it" id="pricing1">
+        <div class="dollar">&dollar;</div>19.99
+        <!-- <div class="dollar">&dollar;</div>199.99 -->
+      </div>
+      <hr class="line">
+      <h3 class="flex-it">500 GB Storage</h3>
+      <hr class="line">
+      <h3 class="flex-it">2 Users Allowed</h3>
+      <hr class="line">
+      <h3 class="flex-it">Send up to 3 GB</h3>
+      <hr class="line">
+      <button class="btn-learn-more">Learn More</button>
+    </div>
+    <div class="mid-container">
+      <h2 class="flex-it">Professional</h2>
+      <div class="pricing flex-it" id="pricing2">
+        <div class="dollar">&dollar;</div>24.99
+        <!-- <div class="dollar">&dollar;</div>249.99 -->
+      </div>
+      <hr class="line">
+      <h3 class="flex-it">1 TB Storage</h3>
+      <hr class="line">
+      <h3 class="flex-it">5 Users Allowed</h3>
+      <hr class="line">
+      <h3 class="flex-it">Send up to 10 GB</h3>
+      <hr class="line">
+      <button class="btn-learn-more">Learn More</button>
+    </div>
+    <div class="common-container cc2">
+      <h2 class="flex-it">Master</h2>
+      <div class="pricing flex-it" id="pricing3">
+        <div class="dollar">&dollar;</div>39.99
+        <!-- <div class="dollar">&dollar;</div>399.99 -->
+      </div>
+      <hr class="line">
+      <h3 class="flex-it">2 TB Storage</h3>
+      <hr class="line">
+      <h3 class="flex-it">10 Users Allowed</h3>
+      <hr class="line">
+      <h3 class="flex-it">Send up to 20 GB</h3>
+      <hr class="line">
+      <button class="btn-learn-more">Learn More</button>
+    </div>
+  </div>
+  <div class="attribution footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/dhirajdalvi2001">Dhiraj Dalvi</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
